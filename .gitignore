@@ -2,7 +2,7 @@
 
 # dependencies
 node_modules/
-/utils/api.js
+/src/utils/api.js
 
 # Expo
 .expo/
