@@ -24,6 +24,7 @@ const useLocation = () => {
         setLocation({ latitude, longitude });
       } catch (error) {
         console.log('Error getting location:', error);
+        alert("Location Request Failed")
       }
     };
 
